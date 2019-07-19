@@ -3,6 +3,16 @@ var app = new Vue({
     data:{
         product: 'Socks',
         image:'./public/images/vmSocks-blue.png',
-        inventory:0
+        inventory:20,
+        details: ["80% cotton", "20% polyester", "Gender-neutral"],
+        variants:[
+            {
+                variantId:2234,
+                variantColor:"Green"
+            },{
+                variantId:2235,
+                variantColor:"Blue"
+            }
+        ]
     }
 })
