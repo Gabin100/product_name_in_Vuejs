@@ -32,14 +32,15 @@
                           <a class="nav-link disabled" href="#">Disabled</a>
                         </li>
                       </ul>
-                        <span class="navbar-text my-2 my-lg-0">
+                        <!---<span class="navbar-text my-2 my-lg-0">
                             <p class="btn btn-outline-success my-2 my-sm-0">Cart {{cart}}</p>
-                        </span>
+                        </span>-->
                     </div>
                   </nav>
     </div>
     <div id="app">
-        <product :premium="premium"></product>
+        <p class="btn btn-outline-success">Cart {{cart.length}}</p>
+        <product :premium="premium" @add-to-cart="updateCart"></product>
     </div>
     <!-- vuejs, myjavscript data-->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
