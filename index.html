@@ -8,9 +8,20 @@
     <link rel="stylesheet" href="public/stylesheet/style.css">
 </head>
 <body>
+    <div class="nav-bar"></div>
     <div id="app">
-        <!--Product goes here-->
-        <h1>{{product}}</h1>
+        <div class="product">
+            <!--Product image-->
+            <div class="product-image">
+                <img v-bind:src="image" alt="">
+            </div>
+            <!--product information-->
+            <div class="product-info">
+                <!--Product goes here-->
+                <h1>{{product}}</h1>
+            </div>
+        </div>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="public/javascipt/main.js"></script>
