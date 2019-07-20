@@ -3,3 +3,7 @@
     height: 40px;
     margin-top: 5px;
 }
+.tab{
+    cursor: pointer;
+    padding-right: 5px;
+}
