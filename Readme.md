@@ -1,0 +1,1 @@
+this project is in Vue.js but dealing with commponents, event, forms, and it is really best for begginners to start with.  
